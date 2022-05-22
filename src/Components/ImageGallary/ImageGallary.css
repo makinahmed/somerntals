@@ -38,5 +38,12 @@
     /* background-image: ; */
     background-position: top;
     background-size: cover;
-background-image: linear-gradient(to bottom, rgba(248, 244, 244, 0.822) 0%, rgba(248, 244, 244, 0.808) 550%), url('../../Assets/Images/gallary-bg.jpg');
+background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.836) 0%, rgba(248, 244, 244, 0.973) 550%), url('../../Assets/Images/gallary-bg.jpg');
+}
+
+.explore:hover a{
+    color: tomato;
+}
+.explore:hover {
+    color: tomato;
 }

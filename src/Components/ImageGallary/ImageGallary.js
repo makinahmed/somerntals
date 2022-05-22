@@ -81,7 +81,7 @@ export default function ImageGallary() {
         <section className="explore-hotel my-5">
           <Container>
             <h1 className="my-5 text-left">Explore Somalia and More</h1>
-            <Row className="g-4">
+            <Row className="">
               <Slider {...settings}>
                 {exploreData?.map((data) => (
                   <div className="single-card">
@@ -110,7 +110,7 @@ export default function ImageGallary() {
           </Container>
         </section>
         <Row>
-          <Col xs={12} md={6} className="single-img">
+          <Col xs={12} md={6} className="single-img my-3">
             <div className="img-wrapper">
               <div className="gallary-img-text">
                 <h2>DUBAI</h2>
@@ -125,7 +125,7 @@ export default function ImageGallary() {
               </div>
             </div>
           </Col>
-          <Col xs={12} md={6}>
+          <Col xs={12} md={6} className="my-3">
             <div className="img-wrapper">
               <div className="gallary-img-text">
                 <h2>TURKEY</h2>
@@ -142,7 +142,7 @@ export default function ImageGallary() {
           </Col>
         </Row>
         <Row className="my-5">
-          <Col xs={12} md={4} className="single-img">
+          <Col xs={12} md={4} className="single-img my-3">
             <div className="img-wrapper">
               <div className="gallary-img-text">
                 <h2>LANDON</h2>
@@ -157,7 +157,7 @@ export default function ImageGallary() {
               </div>
             </div>
           </Col>
-          <Col xs={12} md={4}>
+          <Col xs={12} md={4} className="my-3">
             <div className="img-wrapper">
               <div className="gallary-img-text">
                 <h2>USA</h2>
@@ -172,7 +172,7 @@ export default function ImageGallary() {
               </div>
             </div>
           </Col>
-          <Col xs={12} md={4}>
+          <Col xs={12} md={4} className="my-3">
             <div className="img-wrapper">
               <div className="gallary-img-text">
                 <h2>BANGKOK</h2>

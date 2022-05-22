@@ -55,12 +55,6 @@ filter: brightness(0.7) !important
     align-items: center;
 }
 
- /* .explore-hotel>.slick-next:hover {
-    background-color: tomato;
-} */
-
-
-
 .slick-prev:before {
     color: gray;
     font-size: 25px;
@@ -70,8 +64,8 @@ filter: brightness(0.7) !important
     font-size: 25px;
 }
 
-.single-card:hover {
-transform: scale(1.1);
+.img-gallary .single-card:hover {
+/* transform: scale(1); */
 transition-duration: 1s;
 overflow: hidden;
 }

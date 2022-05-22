@@ -16,7 +16,7 @@ export default function Sponsors() {
   const settings = {
     dots: true,
     infinite: true,
-    slidesToShow: 4,
+    slidesToShow: 5,
     slidesToScroll: 1,
     speed: 1000,
     initialSlide: 0,
@@ -50,7 +50,7 @@ export default function Sponsors() {
 
   return (
     <>
-      <section className="property-types my-5">
+      <section className="property-types my-5 text-center">
         <Slider {...settings}>
           {sponsors?.map((sponsor) => (
             <div key={sponsor?.id} className="sponsors-img">

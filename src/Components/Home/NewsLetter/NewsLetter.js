@@ -9,7 +9,7 @@ const NewsLetter = () => {
         <Container>
           <Row className="g-3">
             <Col md={6}>
-              <h3 className="news-letter-title">
+              <h3 className="news-letter-title ps-5">
                 Subscribe our newsletter for future <br /> updates
               </h3>
             </Col>

@@ -57,8 +57,8 @@ export default function PropertyType() {
           <Row className="g-4">
             <Slider {...settings}>
               {propertyTypeData?.map((data) => (
-                <div className="single-card">
-                  <Card>
+                <div className="single-card-property">
+                  <Card className="shadow" style={{ border: "none" }}>
                     <div style={{ height: "13rem" }}>
                       <Card.Img
                         style={{

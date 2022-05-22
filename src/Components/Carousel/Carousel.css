@@ -152,4 +152,17 @@
         font-size: 20px;
         margin-top: -5px;
     }
+          .carousel-section .slick-prev {
+              z-index: 22;
+              top: 100%;
+              left: 46%;
+          }
+    
+          .carousel-section .slick-next {
+              top: 100%;
+              z-index: 10;
+              left: 65%;
+          }
+           
 }
+ 

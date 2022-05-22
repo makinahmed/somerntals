@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Button, Card, Col, Container, Row } from "react-bootstrap";
+import {Card, Col, Container, Row } from "react-bootstrap";
 import './topTrip.css';
 export default function TopTrip() {
   const [trip, setTrip] = useState();
@@ -11,12 +11,12 @@ export default function TopTrip() {
   }, []);
 
   return (
-    <Container className="my-5">
+    <Container className="my-5 g-5">
       <h2 className="my-3">Weekly top trip</h2>
       <Row>
         {trip?.map((data) => (
-          <Col xs={6} md={4} lg={3} key={data.id}>
-            <Card style={{ width: "16rem",border: 'none' }}>
+          <Col sm={6} md={4} lg={3} key={data.id}>
+            <Card style={{ maxWidth: "16rem",border: 'none' }}>
               <Card.Img variant="top" src={data.img} />
               <Card.Body className="d-block">
                 <Card.Title>{data?.title}</Card.Title>

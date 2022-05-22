@@ -6,8 +6,11 @@
     outline: 2px solid tomato;
     display: block;
     width: 45%;
-    padding: 3px 5px 3px 10px;
+    padding: 4px 6px 6px 13px;
     border-radius: 5%;
+    font-size: 13px;
+    font-weight: bold;
+
 
 }
 

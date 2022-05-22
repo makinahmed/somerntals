@@ -221,3 +221,28 @@
 ::-webkit-scrollbar-thumb {
     background: #002046;
 }
+
+/* 
+@media screen and (max-width: 600px) {
+    .banner-top {
+        width: 100%;
+    }
+    .banner-top h1 {
+        font-size: 2.5rem;
+    }
+        .banner-bottom {
+            width: 80%;
+            height: 450px;
+            background-color: white;
+            border-radius: 7px;
+            margin-top: 1.8rem;
+            padding: 18px 25px;
+        }
+    
+        .banner-bottom-title {
+            color: #535353;
+            margin-bottom: 0.625rem;
+            font-size: 0.875rem;
+            font-weight: 600;
+        }
+} */

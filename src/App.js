@@ -22,7 +22,6 @@ function App() {
       <Banner />
       {/* <ExploreHotels /> */}
       <ImageGallary />
-
       <PropertyType />
       <TopTrip/>
       <HowItWorksBanner />
