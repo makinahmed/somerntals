@@ -1,0 +1,56 @@
+.single-card {
+    padding: 0 10px;
+
+}
+
+.slick-list {
+    margin: 0 -10px;
+}
+
+.explore-hotel .slick-prev{
+            z-index: 5;
+            width: 40px;
+            height:50px;
+            padding: 10px;
+            border: 2px solid black;
+            left: 20px;
+            top: 40%;
+            display: flex !important; 
+            justify-content: center;
+            align-items: center;
+}
+
+.exp-hotel-cart-text {
+    position: absolute;
+}
+
+.exp-hotel-cart-text .card-body {
+    position: relative; 
+    top: 170px;
+    left: 20px;
+    color: white;
+}
+
+.card-img-top {
+filter: brightness(0.7) !important
+}
+
+
+.explore-hotel .slick-next {
+    z-index: 5;
+    width: 40px;
+    height: 50px;
+    right: 20px;
+    top: 120px;
+    padding: 10px;
+    border: 2px solid black;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+
+.single-card:hover {
+transform: scale(1.1);
+transition-duration: 1s;
+overflow: hidden;
+}

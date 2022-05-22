@@ -1,0 +1,21 @@
+
+.img-wrapper {
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 300px;
+    background-image: url('../../img/dubai.jpg');
+    background-color: hwb(231 0% 56% / 0.753);
+}
+
+.gallary-img-text {
+    position: absolute;
+    top: 10%;
+    left: 15%;
+    color: white;
+}
+.gallary-img-text a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}

@@ -1,0 +1,32 @@
+[
+    {
+        "id": 2234,
+        "img": "https://i.ibb.co/2K0kDf0/image-1.jpg",
+        "title": "Bandarban",
+        "price": 100
+    },
+    {
+        "id": 2235,
+        "img": "https://i.ibb.co/fNTBms3/image-2.jpg",
+        "title": "New York City",
+        "price": 100
+    },
+    {
+        "id": 2236,
+        "img": "https://i.ibb.co/J5Hx7KV/image-3.jpg",
+        "title": "Dhaka",
+        "price": 99
+    },
+    {
+        "id": 2237,
+        "img": "https://i.ibb.co/9b4zkWB/image.jpg",
+        "title": "Cox'Bazar",
+        "price": 100
+    },
+    {
+        "id": 2238,
+        "img": "https://i.ibb.co/qN6qBjt/image.png",
+        "title": "Kuakata",
+        "price": 44
+    }
+]

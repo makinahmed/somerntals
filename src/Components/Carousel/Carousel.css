@@ -1,0 +1,157 @@
+.container {
+    /* text-align: center; */
+    margin: 0 auto;
+    text-align: center;
+
+
+}
+
+.carousel-img-wrapper {
+    /* position: relative; */
+    border: 10px solid tomato;
+    height: 330px;
+    overflow: visible;
+    z-index: -5;
+    width: 76% !important;
+    margin: auto;
+}
+
+.carousel-img {
+    /* position: absolute; */
+    margin-left: -150px;
+    z-index: 5;
+    height: 200px;
+    margin-top: 45px;
+    overflow: visible;
+
+}
+
+.carousel-text {
+    margin-top: -200px;
+    /* width: 60%; */
+    position: relative;
+
+}
+
+.carousel-text p {
+    position: absolute;
+    left: 300px;
+    top: 0;
+    text-align: left;
+    /* line-height: 30px;
+    word-spacing: 5px; */
+}
+
+.quote {
+    background-color: tomato;
+    width: 50px;
+    margin-left: 200px;
+    position: relative;
+
+
+}
+
+.quote img {
+    /* width: 100%; */
+    color: tomato;
+    display: block;
+    /* height: 100%; */
+    position: absolute;
+    top: -200px;
+
+
+}
+
+.icons {
+    margin-left: 500px;
+    margin-top: 200px;
+    color: gold;
+
+}
+
+.sayara {
+    margin-left: 60px;
+    font-size: 20px;
+    margin-top: -5px;
+}
+
+.slick-prev {
+    z-index: 22;
+    top: 35%;
+    left: 86%;
+}
+
+.slick-next {
+    top: 55%;
+    z-index: 10;
+    left: 86%;
+}
+
+.slick-next,
+.slick-prev {
+    background: tomato !important;
+    width: 50px;
+    height: 50px;
+    transform: translate(0, -50%);
+    color: transparent;
+    border-radius: 50%;
+    font-size: 55px;
+    position: absolute;
+}
+
+
+@media screen and (max-width: 1000px) {
+
+    .container {
+
+        margin: 0;
+        text-align: center;
+
+
+    }
+
+    .carousel-img-wrapper {
+
+        border: 10px solid tomato;
+        height: auto;
+        width: auto;
+        margin: auto;
+    }
+
+    .carousel-img {
+        /* position: fixed; */
+        margin-left: 0px;
+        height: auto;
+        width: 100%;
+        margin-top: 45px;
+        overflow: visible;
+
+    }
+
+    .carousel-text {
+        margin-top: 0px;
+        /* width: 60%; */
+        min-height: 300px;
+
+    }
+
+    .carousel-text p {
+        left: 0px;
+        top: 30px;
+        text-align: left;
+    }
+
+    .quote {
+        display: none;
+    }
+
+    .icons {
+        display: none;
+    }
+
+    .sayara {
+        margin-left: 60px;
+        font-size: 20px;
+        margin-top: -5px;
+    }
+}
