@@ -10,6 +10,8 @@ import HowItWorksBanner from "./Components/Home/HowItWorksBanner/HowItWorksBanne
 import VideoBanner from "./Components/Home/VideoBanner/VideoBanner";
 import Footer from "./Components/Shared/Footer/Footer";
 import NewsLetter from "./Components/Home/NewsLetter/NewsLetter";
+import Sponsors from './Components/Sponsors/Sponsors';
+import TopTrip from './Components/TopTrip/TopTrip';
 
 
 
@@ -18,12 +20,15 @@ function App() {
     <>
       <Navigaion />
       <Banner />
+      {/* <ExploreHotels /> */}
       <ImageGallary />
-      <ExploreHotels />
+
       <PropertyType />
+      <TopTrip/>
       <HowItWorksBanner />
       <Carousel />
       <VideoBanner />
+      <Sponsors />
       <NewsLetter />
       <Footer />
     </>

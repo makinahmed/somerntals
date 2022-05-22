@@ -49,9 +49,10 @@
 
 }
 
-.carousel-section .quote img {
+.carousel-section .quote .quote-icon {
     /* width: 100%; */
     color: tomato;
+    font-size: 60px;
     display: block;
     /* height: 100%; */
     position: absolute;
@@ -59,7 +60,9 @@
 
 
 }
-
+.slick-arrow {
+    display: none;
+}
 .carousel-section .icons {
     margin-left: 500px;
     margin-top: 200px;
@@ -96,7 +99,11 @@
     font-size: 55px;
     position: absolute;
 }
-
+/* .slick-prev:before,
+.slick-next:before {
+    font-size: 30px;
+    color: white;
+} */
 
 @media screen and (max-width: 1000px) {
 

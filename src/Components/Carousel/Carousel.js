@@ -3,15 +3,21 @@ import { Container } from 'react-bootstrap';
 import Slider from "react-slick";
 import './Carousel.css';
 import { AiFillStar } from "react-icons/ai";
+import { FaQuoteLeft } from "react-icons/fa";
 
 export default function Carousel() {
+// arrow icon 
+
+
+
 
     const settings = {
       dots: false,
       infinite: true,
       speed: 300,
       slidesToShow: 1,
-      slidesToScroll: 1,
+      slidesToScroll: 1
+     
     };
   return (
     <section className='my-5 carousel-section'>
@@ -25,10 +31,8 @@ export default function Carousel() {
                 alt=""
               />
               <div className="quote">
-                <img
-                  src="https://i.ibb.co/0h1k59r/icons8-quote-left-50.png"
-                  alt=""
-                />
+                <FaQuoteLeft className='quote-icon'/>
+                
               </div>
               <div className="carousel-text">
                 <p>

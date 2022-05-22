@@ -10,14 +10,14 @@
     filter: brightness(0.7) !important
 }
 .single-card:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
     transition-duration: 1s;
     overflow: hidden;
 }
 
-  /* .property-type-cart-text{
-    position: absolute;
-} */
+  .property-type-cart-text{
+    margin: 0;
+}
 .property-types .card-body {
     /* position: relative; */
     /* top: 0; */

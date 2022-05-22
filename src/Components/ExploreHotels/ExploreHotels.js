@@ -74,9 +74,9 @@ function SamplePrevArrow(props) {
 
   return (
     <>
-      <section className="explore-hotel">
-        <Container>
-          <h1 className="my-5 text-center">Browse By Popular Hotels</h1>
+      <section className="explore-hotel my-5">
+        <Container>     
+          <h1 className="my-5">Explore Somalia and More</h1>
           <Row className="g-4">
             <Slider {...settings}>
               {exploreData?.map((data) => (
@@ -90,10 +90,13 @@ function SamplePrevArrow(props) {
                       />
                     </div>
                     <div className="exp-hotel-cart-text">
-                      <Card.Body>
-                        <Card.Title>{data.title}</Card.Title>
-                        <Card.Text>{data.price}</Card.Text>
-                      </Card.Body>
+                      <div className="card-body">
+                        <div>
+                          <h5>{data.title}</h5>
+                          <p>Avarage Price</p>
+                        </div>
+                        <div className="mt-4"> ${data.price}</div>
+                      </div>
                     </div>
                   </Card>
                 </div>

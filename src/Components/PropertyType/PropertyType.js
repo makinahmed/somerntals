@@ -53,29 +53,41 @@ export default function PropertyType() {
     <>
       <section className="property-types">
         <Container>
-          <h1 className="my-5 text-center">Browse By Property Type</h1>
+          <h1 className="my-5 ">Browse By Property Type</h1>
           <Row className="g-4">
             <Slider {...settings}>
               {propertyTypeData?.map((data) => (
                 <div className="single-card">
                   <Card>
-                    <div style={{ height: "10rem" }}>
+                    <div style={{ height: "13rem" }}>
                       <Card.Img
-                        style={{ maxHeight: "100%", objectFit: "cover" }}
+                        style={{
+                          maxHeight: "100%",
+                          objectFit: "cover",
+                          padding: "0",
+                        }}
                         variant="top"
                         src={`${data.img}`}
                       />
                     </div>
                     <div className="property-type-cart-text">
-                      <Card.Body>
-                        <Card.Title>{data?.title}</Card.Title>
-                        <Card.Text>
-                          {" "}
-                          <span className="ms-1">{data?.quantity}</span>{" "}
-                          <span className="ms-2">
-                            {data?.title.toLowerCase()}
-                          </span>
-                        </Card.Text>
+                      <Card.Body className="d-block m-0 py-0">
+                        <p
+                          className="my-0"
+                          style={{
+                            color: "black",
+                            fontWeight: "bold",
+                            padding: "0",
+                            margin: "0",
+                          }}
+                        >
+                          {data.title}
+                        </p>
+
+                        <p className="my-0">
+                          {data.quantity}
+                          {data.title}
+                        </p>
                       </Card.Body>
                     </div>
                   </Card>

@@ -15,7 +15,7 @@ const Banner = () => {
   const [calenderOn, setCalenderOn] = useState(false);
 
   return (
-    <section className="banner-container" on>
+    <section className="banner-container mb-5" on>
       <div className="banner-content">
         <div className="banner-top">
           <h1>Explore the best hotels of the whole world.</h1>

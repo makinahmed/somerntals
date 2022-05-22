@@ -1,0 +1,16 @@
+.btn-wrapper .top-trip-btn {
+    
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    outline: 2px solid tomato;
+    display: block;
+    width: 45%;
+    padding: 3px 5px 3px 10px;
+    border-radius: 5%;
+
+}
+
+.top-trip-btn:hover{
+    background-color: rgba(255, 99, 71, 0.801);
+}
