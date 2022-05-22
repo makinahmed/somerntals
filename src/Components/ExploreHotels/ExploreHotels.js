@@ -76,6 +76,7 @@ function SamplePrevArrow(props) {
     <>
       <section className="explore-hotel">
         <Container>
+          <h1 className="my-5 text-center">Browse By Popular Hotels</h1>
           <Row className="g-4">
             <Slider {...settings}>
               {exploreData?.map((data) => (

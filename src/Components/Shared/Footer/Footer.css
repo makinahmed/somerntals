@@ -1,0 +1,124 @@
+.footer-section {
+    width: 100%;
+    height: 458px;
+    background-image: url("../../../Assets/Images/banner-4.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer {
+    width: 100%;
+    height: 100%;
+    background-color: #feffffd8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-logo {
+    max-height: 70px;
+}
+
+.footer-left-desc {
+    margin-top: 1rem;
+    font-size: 1rem;
+    color: #464646;
+}
+
+.footer-title {
+    font-family: "Playfair Display", serif;
+    font-weight: 600;
+    margin: 0;
+    line-height: 1.3;
+    font-size: 1.5rem;
+    margin: 0;
+    margin-bottom: -13px;
+}
+
+.footer-hr {
+    margin-bottom: 25px;
+}
+
+.footer-link,
+.call-link,
+.address-link,
+.email-link {
+    color: #464646;
+    font-size: 0.9375rem;
+    cursor: pointer;
+    font-weight: 400;
+    margin: 8px 0 0 0;
+}
+
+.call-link,
+.address-link,
+.email-link {
+    margin-bottom: 20px;
+}
+
+.call-icon,
+.footer-location-icon {
+    font-size: 18px;
+    color: #464646;
+    margin-right: 10px;
+}
+
+.footer-location-icon {
+    font-size: 20px;
+}
+
+.footer-link:hover,
+.call-link:hover,
+.email-link:hover {
+    color: #EF5945;
+}
+
+.footer-social-icons {
+    display: flex;
+    align-items: center;
+}
+
+.footer-social-icons div {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #002046;
+    margin-top: 20px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s linear;
+}
+
+.footer-social-icons div:hover {
+    background-color: #EF5945;
+}
+
+.footer-bottom {
+    width: 100%;
+    height: 40px;
+    padding-top: 41px;
+    text-align: center;
+}
+
+.footer-bottom p {
+    margin: 0;
+    color: #464646;
+    padding-bottom: 12px;
+}
+
+/* MEDIA QUERY FOR RESPONSIVENESS */
+@media only screen and (max-width: 768px) {
+    .footer-section {
+        height: auto;
+    }
+
+    .footer {
+        padding: 40px 0;
+    }
+}

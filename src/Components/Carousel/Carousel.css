@@ -1,12 +1,10 @@
-.container {
+.carousel-section .container {
     /* text-align: center; */
     margin: 0 auto;
     text-align: center;
-
-
 }
 
-.carousel-img-wrapper {
+.carousel-section .carousel-img-wrapper {
     /* position: relative; */
     border: 10px solid tomato;
     height: 330px;
@@ -16,7 +14,7 @@
     margin: auto;
 }
 
-.carousel-img {
+.carousel-section .carousel-img {
     /* position: absolute; */
     margin-left: -150px;
     z-index: 5;
@@ -26,14 +24,14 @@
 
 }
 
-.carousel-text {
+.carousel-section .carousel-text {
     margin-top: -200px;
-    /* width: 60%; */
+    /* width: 80%; */
     position: relative;
 
 }
 
-.carousel-text p {
+.carousel-section .carousel-text p {
     position: absolute;
     left: 300px;
     top: 0;
@@ -42,7 +40,7 @@
     word-spacing: 5px; */
 }
 
-.quote {
+.carousel-section .quote {
     background-color: tomato;
     width: 50px;
     margin-left: 200px;
@@ -51,7 +49,7 @@
 
 }
 
-.quote img {
+.carousel-section .quote img {
     /* width: 100%; */
     color: tomato;
     display: block;
@@ -62,33 +60,33 @@
 
 }
 
-.icons {
+.carousel-section .icons {
     margin-left: 500px;
     margin-top: 200px;
     color: gold;
 
 }
 
-.sayara {
+.carousel-section .sayara {
     margin-left: 60px;
     font-size: 20px;
     margin-top: -5px;
 }
 
-.slick-prev {
+.carousel-section .slick-prev {
     z-index: 22;
     top: 35%;
     left: 86%;
 }
 
-.slick-next {
+.carousel-section .slick-next {
     top: 55%;
     z-index: 10;
     left: 86%;
 }
 
-.slick-next,
-.slick-prev {
+.carousel-section .slick-next,
+.carousel-section .slick-prev {
     background: tomato !important;
     width: 50px;
     height: 50px;
@@ -102,54 +100,47 @@
 
 @media screen and (max-width: 1000px) {
 
-    .container {
-
+.carousel-section .container {
         margin: 0;
         text-align: center;
-
-
     }
 
-    .carousel-img-wrapper {
-
+ .carousel-section .carousel-img-wrapper {
         border: 10px solid tomato;
         height: auto;
-        width: auto;
+        width: 100%;
         margin: auto;
     }
 
-    .carousel-img {
+ .carousel-section .carousel-img {
         /* position: fixed; */
         margin-left: 0px;
         height: auto;
         width: 100%;
         margin-top: 45px;
         overflow: visible;
-
     }
-
-    .carousel-text {
+ .carousel-section .carousel-text {
         margin-top: 0px;
-        /* width: 60%; */
+        /* width: 20%; */
         min-height: 300px;
 
     }
 
-    .carousel-text p {
+  .carousel-section  .carousel-text p {
         left: 0px;
         top: 30px;
         text-align: left;
     }
-
-    .quote {
+ .carousel-section .quote {
         display: none;
     }
 
-    .icons {
+ .carousel-section .icons {
         display: none;
     }
 
-    .sayara {
+  .carousel-section .sayara {
         margin-left: 60px;
         font-size: 20px;
         margin-top: -5px;

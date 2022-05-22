@@ -7,6 +7,7 @@ export default function ImageGallary() {
   return (
     <section className="img-gallary">
       <Container className="gy-5">
+        <h1 className="my-5">Explore Somalia and More</h1>
         <Row>
           <Col xs={12} md={6} className="single-img">
             <div className="img-wrapper">

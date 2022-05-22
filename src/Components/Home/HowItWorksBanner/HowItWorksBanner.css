@@ -1,0 +1,109 @@
+.how-it-works-section {
+    position: relative;
+    max-width: 100%;
+    height: 60vh;
+}
+
+.how-it-works-banner {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('../../../Assets/Images/banner-2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: 60vh;
+    margin-top: 100px;
+    opacity: 0.4;
+}
+
+.how-it-works-section .avatar-one {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.how-it-works-section .avatar-two {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.how-it-works-section .avatar-one img,
+.how-it-works-section .avatar-two img {
+    width: 220px;
+}
+
+.content-container {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content-top {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.content-top h6 {
+    font-family: "Playfair Display", serif;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #464646;
+}
+
+.content-top h2 {
+    font-size: 35px;
+    padding: 12px 0px 30px 0px;
+    color: #373e4a;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #002046;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.circle-title {
+    font-family: "Playfair Display", serif;
+    color: #373e4a;
+    font-weight: 600;
+    margin: 0;
+    line-height: 1.3;
+    font-size: 1.5rem;
+    margin-left: 10px;
+}
+
+
+/* MEDIA QUERY FOR RESPONSIVENESS */
+
+@media only screen and (max-width: 768px) {
+
+    .how-it-works-section,
+    .how-it-works-banner {
+        height: 80vh;
+    }
+
+    .content-container {
+        align-items: center;
+        padding: 50px 0;
+    }
+
+    .how-it-works-section .avatar-one,
+    .how-it-works-section .avatar-two {
+        opacity: 0.4;
+    }
+}

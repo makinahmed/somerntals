@@ -1,0 +1,223 @@
+.banner-container {
+    background-image: linear-gradient(rgba(16, 25, 44, 0.600), rgba(16,
+                25,
+                44,
+                0.600)), url("../../../Assets//Images/banner-1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    max-width: 100%;
+    height: 570px;
+}
+
+.banner-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.banner-top {
+    text-align: center;
+    width: 50%;
+}
+
+.banner-top h1 {
+    font-size: 3rem;
+    color: white;
+    font-family: 'Playfair Display', serif;
+}
+
+.banner-top p {
+    font-size: 1.125rem;
+    margin-top: 1rem;
+    color: white;
+    font-weight: 500;
+}
+
+.banner-bottom {
+    width: 80%;
+    height: 120px;
+    background-color: white;
+    border-radius: 7px;
+    margin-top: 1.8rem;
+    padding: 18px 25px;
+}
+
+.banner-bottom-title {
+    color: #535353;
+    margin-bottom: 0.625rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+}
+
+.location-select,
+.calender,
+.adult {
+    width: 100%;
+    height: 48px;
+    border: 1px solid #dee2e6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+}
+
+.location-icon {
+    font-size: 1.3rem;
+    color: #4d5563;
+    margin-right: 10px;
+}
+
+.location-select span {
+    color: #373e4a;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.arrow-icon {
+    color: #4d5563;
+    font-size: 1.2rem;
+}
+
+.location-option {
+    background-color: white;
+    border: 1px dashed #b1bdcb;
+    width: 198px;
+    height: 235px;
+    position: absolute;
+    bottom: 47.4px;
+    right: 12px;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.2);
+}
+
+.select-location-search {
+    padding: 5px 0;
+    text-align: center;
+}
+
+.option-container {
+    height: 196px;
+    overflow-y: scroll;
+}
+
+.option-container p {
+    padding: 6px 5px;
+    margin: 0;
+    color: #373e4a;
+    font-size: 1.1rem;
+}
+
+.option-container p:hover {
+    background-color: #F05945;
+    color: white;
+}
+
+
+.calender-icon,
+.user-icon,
+.child-icon {
+    color: #4d5563;
+}
+
+.user-icon,
+.child-icon {
+    font-size: 24px;
+}
+
+.calender input,
+.adult input {
+    width: 100%;
+    height: 100%;
+    margin-left: 5px;
+    border: 0;
+    outline: none;
+    padding: 0 5px;
+    color: #373e4a;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.calender-container {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    font-size: 14px;
+    padding: 8px;
+    transition: 0.3s linear;
+    display: none;
+    transition: 0.3s linear;
+}
+
+.calender-container.active {
+    display: block;
+}
+
+
+.react-calendar {
+    width: 350px;
+    max-width: 100%;
+    background: white;
+    border: 1px solid #dbdbdb;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.125em;
+    font-family: Tahoma, sans-serif;
+    font-size: 14px;
+    color: #4a4a4a;
+}
+
+.banner-search-btn-container {
+    position: relative;
+    height: 100%;
+}
+
+.banner-search-btn {
+    width: 100%;
+    height: 48px;
+    background-color: #F05945;
+    color: white;
+    font-weight: 500;
+    font-size: 17px;
+    border: 0;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+}
+
+/* CUSTOM STYLE OF REACT-CALENDER PACKAGE */
+.react-calendar__navigation {
+    display: flex;
+    height: 44px;
+    margin-bottom: 0.5em;
+}
+
+.react-calendar__month-view__weekdays {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.75em;
+    color: #FF9A19;
+}
+
+
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 9px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #002046;
+}

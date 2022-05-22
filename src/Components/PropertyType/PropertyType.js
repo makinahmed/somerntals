@@ -53,6 +53,7 @@ export default function PropertyType() {
     <>
       <section className="property-types">
         <Container>
+          <h1 className="my-5 text-center">Browse By Property Type</h1>
           <Row className="g-4">
             <Slider {...settings}>
               {propertyTypeData?.map((data) => (
@@ -68,10 +69,13 @@ export default function PropertyType() {
                     <div className="property-type-cart-text">
                       <Card.Body>
                         <Card.Title>{data?.title}</Card.Title>
-                        <Card.Text> <span className="ms-1">
-                            {data?.quantity}
-                            
-                            </span> <span className="ms-2">{data?.title.toLowerCase()}</span></Card.Text>
+                        <Card.Text>
+                          {" "}
+                          <span className="ms-1">{data?.quantity}</span>{" "}
+                          <span className="ms-2">
+                            {data?.title.toLowerCase()}
+                          </span>
+                        </Card.Text>
                       </Card.Body>
                     </div>
                   </Card>

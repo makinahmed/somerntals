@@ -1,0 +1,22 @@
+.language-translate-container {
+    background-color: transparent;
+    color: #373e4a;
+    font-size: 14px;
+    padding: 7px 10px;
+    border: 1px solid rgba(85, 85, 85, 0.15);
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    height: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    outline: none;
+}
+
+.language-translate-container option {
+    background-color: #002046;
+    color: #fff;
+    font-size: 14px;
+}
