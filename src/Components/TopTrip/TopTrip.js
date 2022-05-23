@@ -11,8 +11,8 @@ export default function TopTrip() {
   }, []);
 
   return (
-    <Container className="my-5 g-5">
-      <h2 className="my-3">Weekly top trip</h2>
+    <Container className="my-5">
+      <h2 className="my-5">Weekly top trip</h2>
       <Row>
         {trip?.map((data) => (
           <Col sm={6} md={4} lg={3} key={data.id}>

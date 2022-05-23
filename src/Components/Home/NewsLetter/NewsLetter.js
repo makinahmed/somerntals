@@ -14,7 +14,7 @@ const NewsLetter = () => {
               </h3>
             </Col>
             <Col md={6}>
-              <div className="subscribe-container">
+              <div className="subscribe-container me-5">
                 <div className="subscribe">
                   <input placeholder="Subscribe now.." />
                   <button>Subscribe</button>

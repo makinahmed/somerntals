@@ -20,8 +20,16 @@ export default function Carousel() {
      
     };
   return (
-    <section className='my-5 carousel-section'>
-      <Container >
+    <section className="my-5 carousel-section">
+      <Container>
+        <div className='w-50 mx-auto'>
+          <h2 className='my-5 fw-bold'>Our Happy travelers</h2>
+          <p className='mb-5 fs-5'>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Perspiciatis, incidunt quisquam accusamus cupiditate neque aut dolor
+            minus repellendus obcaecati consequuntur.
+          </p>
+        </div>
         <Slider {...settings}>
           <div className="container">
             <div className="carousel-img-wrapper">
@@ -31,8 +39,7 @@ export default function Carousel() {
                 alt=""
               />
               <div className="quote">
-                <FaQuoteLeft className='quote-icon'/>
-                
+                <FaQuoteLeft className="quote-icon" />
               </div>
               <div className="carousel-text">
                 <p>
@@ -60,10 +67,7 @@ export default function Carousel() {
                 alt=""
               />
               <div className="quote">
-                <img
-                  src="https://i.ibb.co/0h1k59r/icons8-quote-left-50.png"
-                  alt=""
-                />
+                <FaQuoteLeft className="quote-icon" />
               </div>
               <div className="carousel-text">
                 <p>
@@ -91,10 +95,7 @@ export default function Carousel() {
                 alt=""
               />
               <div className="quote">
-                <img
-                  src="https://i.ibb.co/0h1k59r/icons8-quote-left-50.png"
-                  alt=""
-                />
+                <FaQuoteLeft className="quote-icon" />
               </div>
               <div className="carousel-text">
                 <p>

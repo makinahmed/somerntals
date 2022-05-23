@@ -58,11 +58,15 @@ export default function PropertyType() {
             <Slider {...settings}>
               {propertyTypeData?.map((data) => (
                 <div className="single-card-property">
-                  <Card className="shadow" style={{ border: "none" }}>
-                    <div style={{ height: "13rem" }}>
+                  <Card
+                    className="shadow-sm  mb-3 rounded"
+                    style={{ border: "none" }}
+                  >
+                    <div style={{ height: "16rem" }}>
                       <Card.Img
                         style={{
-                          maxHeight: "100%",
+                          minHeight: "100%",
+                          width: "95%",
                           objectFit: "cover",
                           padding: "0",
                         }}
@@ -84,7 +88,7 @@ export default function PropertyType() {
                           {data.title}
                         </p>
 
-                        <p className="my-0">
+                        <p className="my-0 text-muted">
                           {data.quantity}
                           {data.title}
                         </p>

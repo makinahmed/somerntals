@@ -1,9 +1,9 @@
-.single-card {
-    padding: 0 10px;
+.explore-hotel .single-card {
+    padding: 0 5px;
 
 }
 
-.slick-list {
+.explore-hotel .slick-list {
     margin: 0 -10px;
 }
 
