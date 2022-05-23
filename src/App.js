@@ -1,6 +1,5 @@
-import logo from './logo.svg';
 import './App.css';
-import ExploreHotels from './Components/ExploreHotels/ExploreHotels';
+// import ExploreHotels from './Components/ExploreHotels/ExploreHotels';
 import ImageGallary from './Components/ImageGallary/ImageGallary';
 import PropertyType from './Components/PropertyType/PropertyType';
 import Navigaion from "./Components/Navigation/Navigation/Navigation";
@@ -39,6 +38,4 @@ function App() {
 }
 
 export default App;
-  {
-    /* <ExploreHotels /> */
-  }
+ 
