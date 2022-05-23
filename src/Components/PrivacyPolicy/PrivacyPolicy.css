@@ -1,0 +1,12 @@
+.privacy-policy-container {
+    overflow-x: hidden;
+}
+
+.privacy-policy-title {
+    background-color: #5a6f87;
+    padding: 80px 0px;
+    width: 100%;
+    color: white;
+    text-align: center;
+
+}

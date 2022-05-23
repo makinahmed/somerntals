@@ -12,6 +12,8 @@ import Footer from "./Components/Shared/Footer/Footer";
 import NewsLetter from "./Components/Home/NewsLetter/NewsLetter";
 import Sponsors from './Components/Sponsors/Sponsors';
 import TopTrip from './Components/TopTrip/TopTrip';
+import TermsOFService from './Components/TermsOFService/TermsOFService';
+import PrivacyPolicy from './Components/PrivacyPolicy/PrivacyPolicy';
 
 
 
@@ -20,7 +22,7 @@ function App() {
     <>
       <Navigaion />
       <Banner />
-      {/* <ExploreHotels /> */}
+    
       <ImageGallary />
       <PropertyType />
       <TopTrip/>
@@ -30,8 +32,13 @@ function App() {
       <Sponsors />
       <NewsLetter />
       <Footer />
+      <TermsOFService/>
+      <PrivacyPolicy/>
     </>
   );
 }
 
 export default App;
+  {
+    /* <ExploreHotels /> */
+  }
